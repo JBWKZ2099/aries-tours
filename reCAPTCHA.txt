@@ -1,0 +1,12 @@
+Como usar captcha
+http://www.taringa.net/comunidades/webdesign/9100165/Aporte-Usar-en-PHP-el-nuevo-no-CAPTCHA-reCAPTCHA-de-Google.html
+
+
+
+- Clave del sitio:
+    *Úsala en el código HTML que muestra tu sitio a los usuarios.
+6LeyqxgTAAAAAM2VjZTiF9AKYA8-486tkooZOdmI
+
+- Clave secreta:
+    *Úsala para las comunicaciones entre tu sitio y Google. Ten la precaución de no revelársela a nadie.
+6LeyqxgTAAAAAK4leNxOeBipb3FnA3n2bYv9Vvts

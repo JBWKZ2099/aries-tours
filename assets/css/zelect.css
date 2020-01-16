@@ -1,0 +1,81 @@
+#intro .zelect {
+      width: 100%;
+      display: inline-block;
+      background-color: white;
+      cursor: pointer;
+      line-height: 33px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      position: relative;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+      -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    }
+    #intro .zelected {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    #intro .zelected.placeholder {
+      color: #555;
+    }
+    #intro .zelected:hover {
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+      -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    }
+    #intro .zelect.open {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    #intro .dropdown {
+      background-color: white;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border: 1px solid #dbdece;
+      border-top: none;
+      position: absolute;
+      left:-1px;
+      right:-1px;
+      top: 36px;
+      z-index: 1001;
+      padding: 3px 5px 3px 3px;
+    }
+    #intro .dropdown input {
+      font-family: sans-serif;
+      outline: none;
+      font-size: 14px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 0 7px 0 7px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+      -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    }
+    #intro .dropdown ol {
+      padding: 0;
+      margin: 3px 0 0 0;
+      list-style-type: none;
+      max-height: 150px;
+      overflow-y: scroll;
+    }
+    #intro .dropdown li {
+      padding-left: 10px;
+    }
+    #intro .dropdown li.current {
+      color: #ffffff;
+      text-decoration: none;
+      background-color: #BD3535;
+      background-image: -webkit-gradient(linear, left 0%, left 100%, from(#CA4343), to(#BD3535));
+      background-image: -webkit-linear-gradient(top, #CA4343, 0%, #BD3535, 100%);
+      background-image: -moz-linear-gradient(top, #CA4343 0%, #BD3535 100%);
+      background-image: linear-gradient(to bottom, #CA4343 0%, #BD3535 100%);
+      background-repeat: repeat-x;
+    }
+    #intro .dropdown .no-results {
+      margin-left: 10px;
+    }
